@@ -1,0 +1,158 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0779e4 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header h1 {
+    float: left;
+    margin-top: 0;
+}
+
+/* Showcase */
+.showcase {
+    background: url('showcase.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 100vh;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.showcase h1 {
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+.showcase p {
+    font-size: 20px;
+}
+
+/* Buttons */
+.button, button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover, button:hover {
+    background: #555;
+}
+
+/* Main */
+main {
+    padding: 20px 0;
+}
+
+main h2 {
+    margin-bottom: 20px;
+}
+
+main p {
+    margin-bottom: 20px;
+}
+
+main .story, main .audio {
+    background: #f4f4f4;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: #ccc 1px solid;
+}
+
+main .story h3, main .audio h3 {
+    margin-bottom: 10px;
+}
+
+/* Forms */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f4f4f4;
+    border: #ccc 1px solid;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+form button {
+    background: #333;
+    color: #fff;
+}
+
+form button:hover {
+    background: #555;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}

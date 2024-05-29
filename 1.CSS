@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: background-origin:;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+form button {
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #555;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: #555;
+}
+
+header {
+    background: #1f0606;
+    color: #ad1616;
+    padding: 20px 0;
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    float: right;
+    margin-top: 10px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px 0;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #333;
+}
+
+article.story {
+    background: #3688e6;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 3px solid #333;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}

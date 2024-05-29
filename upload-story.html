@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Story | Story Time</title>
+    <link rel="stylesheet" href="upload-story.css.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Story Time</h1>
+            <nav>
+                <ul>
+                    <li><a href="1l.html">Home</a></li>
+                    <li><a href="stories.html">Stories</a></li>
+                    <li><a href="audios.html">Audios</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <h2>Upload a Story</h2>
+                <form id="uploadStoryForm">
+                    <div>
+                        <label for="title">Story Title:</label>
+                        <input type="text" id="title" name="title" required>
+                    </div>
+                    <div>
+                        <label for="story">Story Content:</label>
+                        <textarea id="story" name="story" required></textarea>
+                    </div>
+                    <div>
+                        <label for="file">Upload Document:</label>
+                        <input type="file" id="file" name="file" accept=".doc,.docx,.pdf">
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Story Time. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
